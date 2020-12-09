@@ -5,10 +5,10 @@ int main(void)
 int x;
 		int y;
 		int i=1;
-		int group[9][10];
-		for(x=0;x<9;x++)
+		int group[19][20];
+		for(x=0;x<19;x++)
 		{
-		for(y=0;y<10;y++)
+		for(y=0;y<20;y++)
 		{
 			group[x][y]=0;
 		printf("%d ",group[x][y]);
@@ -17,9 +17,9 @@ int x;
 		printf("\n");
 		}
 	
-		for(x=0;x<9;x++)
+		for(x=0;x<19;x++)
 		{
-		for(y=0;y<10;y++)
+		for(y=0;y<20;y++)
 		{
 			group[x][y]=i++;
 		printf("%2d ",group[x][y]);
@@ -30,3 +30,4 @@ int x;
 		
 	return 0;
 }
+

@@ -6,6 +6,7 @@ int main(void)
 	char a1[]="宝塔镇河妖";
 	int x;
 printf("想玩儿游戏吗，先回答一句是什么？天王盖地虎，_______________。\n");
+while(1){
 scanf("%s",&array_c);
 	if (strcmp(array_c,a1)==0)
 	{
@@ -32,11 +33,16 @@ scanf("%s",&array_c);
 			printf("报错!!!");
 			}
 		}
+		break;
 	}
 	else
 	{
-	printf("密码错误!!!!!!!!");
-	}
+	printf("密码错误!!!!!!!!\n");
+	printf("请重新输入!!!\n");
+
+}
+}
 
 return 0;
 }
+

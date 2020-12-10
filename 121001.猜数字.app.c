@@ -40,7 +40,7 @@ scanf("%s",&array_c);
 	printf("密码错误!!!!!!!!\n");
 	printf("请重新输入!!!\n");
 
-}
+	}
 }
 
 return 0;

@@ -5,12 +5,14 @@ int main(void)
   int n;
   int sum=0;
   printf("请输入一个数字\n");
+  while(1){
   scanf("%d",&n);
 	while(i<=n)
 	{
 	sum=sum+i;
 	i++;
 	}
-		printf("%d\n",sum);
+		printf("%d\n\n",sum);
+		}
 return 0;
 }
